@@ -1,4 +1,4 @@
-package br.com.alura.escola.domain.aluno;
+package br.com.alura.escola;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,8 @@
 package br.com.alura.escola.infra.aluno;
 
-import br.com.alura.escola.domain.aluno.domain.aluno.Aluno;
-import br.com.alura.escola.domain.aluno.domain.aluno.AlunoRepository;
-import br.com.alura.escola.domain.aluno.domain.aluno.Cpf;
+import br.com.alura.escola.domain.aluno.Aluno;
+import br.com.alura.escola.domain.aluno.AlunoRepository;
+import br.com.alura.escola.domain.aluno.Cpf;
 
 import java.util.ArrayList;
 import java.util.List;

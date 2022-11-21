@@ -1,4 +1,4 @@
-package br.com.alura.escola.domain.aluno.domain.aluno;
+package br.com.alura.escola.domain.aluno;
 
 public class FabricaDeAluno {
 

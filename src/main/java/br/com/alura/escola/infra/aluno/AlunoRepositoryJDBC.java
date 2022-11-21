@@ -1,10 +1,10 @@
 package br.com.alura.escola.infra.aluno;
 
-import br.com.alura.escola.domain.aluno.domain.aluno.Aluno;
-import br.com.alura.escola.domain.aluno.domain.aluno.AlunoRepository;
-import br.com.alura.escola.domain.aluno.domain.aluno.Cpf;
-import br.com.alura.escola.domain.aluno.domain.aluno.FabricaDeAluno;
-import br.com.alura.escola.domain.aluno.domain.aluno.Telefone;
+import br.com.alura.escola.domain.aluno.Aluno;
+import br.com.alura.escola.domain.aluno.AlunoRepository;
+import br.com.alura.escola.domain.aluno.Cpf;
+import br.com.alura.escola.domain.aluno.FabricaDeAluno;
+import br.com.alura.escola.domain.aluno.Telefone;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
