@@ -13,6 +13,7 @@ public class AlunoRepositoryList implements AlunoRepository {
 
     @Override
     public void matricular(Aluno aluno) {
+        System.out.println("Matriculando aluno");
         matriculados.add(aluno);
     }
 
