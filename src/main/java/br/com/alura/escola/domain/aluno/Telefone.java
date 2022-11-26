@@ -20,4 +20,12 @@ public class Telefone {
     public String getNumero() {
         return numero;
     }
+
+    @Override
+    public String toString() {
+        return "Telefone{" +
+                "ddd='" + ddd + '\'' +
+                ", numero='" + numero + '\'' +
+                '}';
+    }
 }

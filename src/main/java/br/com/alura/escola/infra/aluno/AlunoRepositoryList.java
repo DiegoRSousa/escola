@@ -9,7 +9,7 @@ import java.util.List;
 
 public class AlunoRepositoryList implements AlunoRepository {
 
-    List<Aluno> matriculados = new ArrayList<>();
+    private List<Aluno> matriculados = new ArrayList<>();
 
     @Override
     public void matricular(Aluno aluno) {

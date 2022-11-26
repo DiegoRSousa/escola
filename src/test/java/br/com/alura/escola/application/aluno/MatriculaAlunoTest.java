@@ -4,8 +4,8 @@ import br.com.alura.escola.domain.aluno.Aluno;
 import br.com.alura.escola.domain.aluno.AlunoRepository;
 import br.com.alura.escola.domain.aluno.Cpf;
 import br.com.alura.escola.infra.aluno.AlunoRepositoryList;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
