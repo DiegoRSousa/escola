@@ -1,7 +1,8 @@
 package br.com.alura.escola.academico.domain.aluno;
 
-import br.com.alura.escola.academico.domain.Ouvinte;
-import br.com.alura.escola.academico.domain.Evento;
+import br.com.alura.escola.shared.domain.evento.Ouvinte;
+import br.com.alura.escola.shared.domain.evento.Evento;
+import br.com.alura.escola.shared.domain.evento.TipoDeEvento;
 
 import java.time.format.DateTimeFormatter;
 
@@ -9,7 +10,7 @@ public class LogDeAlunoMatriculado extends Ouvinte {
 
     @Override
     protected boolean deveProcessar(Evento evento) {
-        return evento instanceof AlunoMatriculado;
+        return evento.tipo().equals(TipoDeEvento.ALUNO_MATRICULADO);
     }
 
     @Override

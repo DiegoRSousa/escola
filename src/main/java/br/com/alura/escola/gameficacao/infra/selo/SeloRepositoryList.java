@@ -12,12 +12,13 @@ public class SeloRepositoryList implements SeloRepository {
 
     @Override
     public void salvar(Selo selo) {
+        System.out.println("salbando selo: " + selo.getNome());
         selos.add(selo);
     }
 
     @Override
     public Selo buscarPorNome(String nome) {
-        System.out.println("buscando aluno por nome: " + nome);
+        System.out.println("buscando selo por nome: " + nome);
         return selos.stream().filter(s -> s.getNome().equals(nome)).findFirst().orElse(null);
     }
 }

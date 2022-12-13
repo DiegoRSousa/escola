@@ -1,4 +1,4 @@
-package br.com.alura.escola.gameficacao.application.selo;
+package br.com.alura.escola.gameficacao.application;
 
 import br.com.alura.escola.gameficacao.domain.selo.Selo;
 import br.com.alura.escola.gameficacao.domain.selo.SeloRepository;
